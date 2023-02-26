@@ -7,11 +7,12 @@ public class Marca {
 	nombre = marca;
 	}
 	
-	public void setnombre(String marca) {
+	public void setNombre(String marca) {
 		nombre = marca;
 	}
 	
-	public String getnombre() {
+	public String getNombre() {
 		return nombre;
 	}
+
 }
