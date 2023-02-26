@@ -95,11 +95,11 @@ public class TV {
 		}
 	}
 		
-	public static void setNumTV(int num) {
-			TV.numTV = num;
+	public static void setNumTV(int numTV) {
+			TV.numTV = numTV;
 		}
 		
-		public static Object getNumTV() {
+		public static int getNumTV() {
 			return numTV;
 		}
 	}
