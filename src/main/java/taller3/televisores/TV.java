@@ -62,16 +62,6 @@ public class TV {
 	public int getCanal() {
 		return canal;
 	}
-	class numTV {
-		}
-	
-	public static void setNumTV(int num) {
-		numTV = num;
-	}
-	
-	public static Object getNumTV() {
-		return numTV;
-	}
 	
 	public void turnOn() {
 		this.estado = true;
@@ -103,4 +93,12 @@ public class TV {
 					this.volumen -= 1;
 		}
 	}
-}
+		
+	public static void setNumTV(int num) {
+			numTV = num;
+		}
+		
+		public static Object getNumTV() {
+			return numTV;
+		}
+	}
