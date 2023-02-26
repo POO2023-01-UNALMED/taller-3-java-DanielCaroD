@@ -3,7 +3,7 @@ package taller3.televisores;
 public class Marca {
 	String nombre;
 	
-	Marca(String marca) {
+	public Marca(String marca) {
 	nombre = marca;
 	}
 	
