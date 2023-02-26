@@ -24,6 +24,15 @@ public class TV {
 	public void setControl(Control control) {
 		this.control = control;
 	}
+	
+	public void setEstado(boolean estado) {
+		this.estado = estado;
+	}
+	
+	public boolean getEstado() {
+		return estado;
+	}
+	
 	public Control getControl() {
 		return control;
 	}
