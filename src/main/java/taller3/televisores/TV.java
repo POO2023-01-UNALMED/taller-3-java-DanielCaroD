@@ -54,7 +54,7 @@ public class TV {
 		return canal;
 	}
 	class numTV {
-		static int Contador = 0;
+		public int Contador = 0;
 		
 		public numTV() {
 			Contador++;
@@ -65,33 +65,33 @@ public class TV {
 		}
 	}
 	
-	public void turnOn(boolean estado) {
+	public void turnOn() {
 		this.estado = true;
 	}
-	public void turnOff(boolean estado) {
+	public void turnOff() {
 		this.estado = false;
 	}
 	
-	public void canalUp(int canal) {
-		if (estado == true && canal >= 1 && canal <120) {
+	public void canalUp() {
+		if (this.estado == true && this.canal >= 1 && this.canal <120) {
 			this.canal += 1;
 		}
 	}
 	
-	public void canalDown(int canal) {
-		if (estado == true && canal > 1 && canal <= 120) {
+	public void canalDown() {
+		if (this.estado == true && this.canal > 1 && this.canal <= 120) {
 			this.canal -= 1;
 		}
 	}
 	
-	public void volumenUp(int volumen) {
-		if (estado == true && volumen >= 0 && volumen < 7) {
+	public void volumenUp() {
+		if (this.estado == true && this.volumen >= 0 && this.volumen < 7) {
 					this.volumen += 1;
 		}
 	}
 	
-	public void volumenDown(int volumen) {
-		if (estado == true && volumen > 0 && volumen <= 7) {
+	public void volumenDown() {
+		if (this.estado == true && this.volumen > 0 && this.volumen <= 7) {
 					this.volumen -= 1;
 		}
 	}
